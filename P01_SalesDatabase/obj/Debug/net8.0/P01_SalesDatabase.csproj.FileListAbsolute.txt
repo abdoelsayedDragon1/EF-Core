@@ -129,3 +129,4 @@ D:\on zero\My Second Home\Co.Net\P01_SalesDatabase\P01_SalesDatabase\obj\Debug\n
 D:\on zero\My Second Home\Co.Net\P01_SalesDatabase\P01_SalesDatabase\obj\Debug\net8.0\P01_SalesDatabase.pdb
 D:\on zero\My Second Home\Co.Net\P01_SalesDatabase\P01_SalesDatabase\obj\Debug\net8.0\P01_SalesDatabase.genruntimeconfig.cache
 D:\on zero\My Second Home\Co.Net\P01_SalesDatabase\P01_SalesDatabase\obj\Debug\net8.0\ref\P01_SalesDatabase.dll
+D:\on zero\My Second Home\Co.Net\P01_SalesDatabase\P01_SalesDatabase\obj\Debug\net8.0\P01_SalesDatabase.sourcelink.json

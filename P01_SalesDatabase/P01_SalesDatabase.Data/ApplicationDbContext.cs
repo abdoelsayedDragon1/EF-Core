@@ -35,6 +35,9 @@ namespace P01_SalesDatabase.P01_SalesDatabase.Data
                 .Property(p => p.Name)
                 .IsUnicode(true);
 
+            modelBuilder.Entity<Product>()
+                 .Property(p => p.Quantity)
+                 .HasColumnType("real");
 
 
             modelBuilder.Entity<Customer>()
