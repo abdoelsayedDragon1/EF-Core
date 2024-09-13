@@ -29,10 +29,7 @@ namespace P01_SalesDatabase.P01_SalesDatabase.Data
 
             modelBuilder.Entity<Product>()
                 .Property(p => p.Name)
-                .HasMaxLength(50);
-
-            modelBuilder.Entity<Product>()
-                .Property(p => p.Name)
+                .HasMaxLength(50)
                 .IsUnicode(true);
 
             modelBuilder.Entity<Product>()
@@ -42,19 +39,16 @@ namespace P01_SalesDatabase.P01_SalesDatabase.Data
 
             modelBuilder.Entity<Customer>()
                 .Property(c => c.Name)
-                .HasMaxLength(100);
-
-            modelBuilder.Entity<Customer>()
-                .Property(c => c.Name)
+                .HasMaxLength(100)
                 .IsUnicode(true);
+                
 
             modelBuilder.Entity<Customer>()
                 .Property(c => c.Email)
-                .HasMaxLength(80);
-
-            modelBuilder.Entity<Customer>()
-                .Property(c => c.Email)
+                .HasMaxLength(80)
                 .IsUnicode(false);
+
+          
 
             modelBuilder.Entity<Customer>()
                  .Property(c => c.CreaditCardNumber)
@@ -63,12 +57,9 @@ namespace P01_SalesDatabase.P01_SalesDatabase.Data
 
             modelBuilder.Entity<Store>()
                 .Property(s => s.Name)
-                .HasMaxLength(80);
-
-            modelBuilder.Entity<Store>()
-               .Property(S => S.Name)
-               .IsUnicode(true);
-
+                .HasMaxLength(80)
+                .IsUnicode(true);
+         
             modelBuilder.Entity<Product>()
                 .Property (p => p.Description)
                 .HasMaxLength(500)
